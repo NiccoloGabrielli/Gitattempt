@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block title %}
+Searched
+{% endblock %}
+
+    {% block main %}
+    <br>
+    <div class="card w-75" style="margin-left:240px;">
+        <div class="card-body" >
+          Your search was successful.<br>
+          Press 'more info' on the corresponding dataset you want to view.
+        </div>
+      </div>
+
+    <div class="container1">
+        <form action="/search" method="POST">
+            <input class="form-check-input" type="radio" name="country" id="flexRadioDefault1" value="USA" checked>
+            <label class="form-check-label" for="flexRadioDefault1">
+              United States of America Data
+            </label>
+            <br>
+            <input class="form-check-input" type="radio" name="country" id="flexRadioDefault2" value="UK">
+            <label class="form-check-label" for="flexRadioDefault2">
+              United Kingdom Data
+            </label>
+            <br>
+            <input class="form-check-input" type="radio" name="country" id="flexRadioDefault3" value="Canada">
+            <label class="form-check-label" for="flexRadioDefault3">
+              Canada Data
+            </label>
+            <br><br>
+
+
+            <input type="text" autofocus autocomplete="off" placeholder="Search" id="searchqueue" name="searchqueue">
+            <button class="btn btn-primary" type="submit">Search</button>
+
+        </form>
+
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Organization</th>
+                    <th scope="col">Date Created</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+
+            <tbody>
+                {# A for loop that iterates through every result in the CKAN library request and displays selected data. The hidden data will be used later for the 'More Info' button.  #}
+
+                {% for item in searchresultt["result"]["results"] %}
+                    <form action="/readmore" method="POST">
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td >{{ item["title"] }}</td>
+                            <td name="organization_title" id="organization_title">{{ item["organization"]["title"] }}    <img src="{{ item.organization.image_url}}" alt="" style="width:60px;height:60px;"></td>
+                            <td name="date_created" id="date_created">{{ datescreated[loop.index-2] }}</td>
+                            <td><button class="btn btn-primary" type="submit">More info</button></td>
+                            <input type="hidden" id="notes" name="notes" value="{{item.notes}}">
+                            <input type="hidden" id="data" name="data" value="{{item.resources.0.url}}">
+                            <input type="hidden" id="article_title" name="article_title" value="{{ item.title}}">
+                            <input type="hidden" id="organization_title" name="organization_title" value="{{item.organization.title}}">
+
+                        </tr>
+                    </form>
+                {% endfor %}
+
+            </tbody>
+            </table>
+        </div>
+
+    {% endblock %}
+

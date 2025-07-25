@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% block title %}
+More info
+{% endblock %}
+
+
+    {% block main %}
+    <br>
+    <div class="card w-75" style="margin-left:240px;">
+      <div class="card-body" >
+        You are viewing the information surrounding the dataset you were interested in.<br>
+        To download the dataset, press the link under the 'Downloadable Data' column.
+      </div>
+    </div>
+
+    <br>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <u>Title</u>
+          </div>
+          <div class="col">
+            <u>Organization</u>
+          </div>
+          <div class="col-md">
+            <u>Notes</u>
+          </div>
+          <div class="col-md-auto">
+            <u>Downloadable Data</u>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                {{ dataname }}
+            </div>
+            <div class="col">
+                {{ organizationname }}
+            </div>
+            <div class="col-md">
+                {{ datanotes }}
+            </div>
+            <div class="col-md-auto">
+              <a href="{{ datadownload }}">Data.csv</a>
+            </div>
+
+        </div>
+      </div>
+
+
+
+    {% endblock %}

@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+    <br>
+    <div class="card w-75" style="margin-left:240px;">
+      <div class="card-body" >
+        Welcome!<br>
+        This is a super easy-to-use data finder that helps you search for open-source government data.<br>
+        Just select which country's data you want, type your question, press search, and voila! The top 10 results for your query will appear.<br>
+        For more instructions on how the website works, please visit the 'Instructions' by pressing the 'Instructions' button on the navbar.<br><br>
+        P.S. You cannot have any spaces in your search.
+      </div>
+    </div>
+
+
+    <div class="container1">
+    <form action="/search" method="POST">
+        <input class="form-check-input" type="radio" name="country" id="flexRadioDefault1" value="USA" checked>
+        <label class="form-check-label" for="flexRadioDefault1">
+          United States of America Data
+        </label>
+        <br>
+        <input class="form-check-input" type="radio" name="country" id="flexRadioDefault2" value="UK">
+        <label class="form-check-label" for="flexRadioDefault2">
+          United Kingdom Data
+        </label>
+        <br>
+        <input class="form-check-input" type="radio" name="country" id="flexRadioDefault3" value="Canada">
+        <label class="form-check-label" for="flexRadioDefault3">
+          Canada Data
+        </label>
+        <br>
+        <br>
+
+        <input type="text" autofocus autocomplete="off" placeholder="Search" name="searchqueue">
+        <button class="btn btn-primary" type="submit">Search</button>
+
+    </form>
+
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Organization</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+
+
+        </table>
+    </div>
+
+
+{% endblock %}
