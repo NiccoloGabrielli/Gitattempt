@@ -6,3 +6,10 @@ First we need to save a rough draft:
 Then if we want to push the rough draft:
     - git push
 
+
+Understanding the back end:
+- https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
+
+
+
+
