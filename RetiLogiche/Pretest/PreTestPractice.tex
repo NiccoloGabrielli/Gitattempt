@@ -7,6 +7,7 @@
 \usepackage{pdfpages}
 \usepackage{enumitem}
 \usepackage{array}
+\usepackage{longtable}
 
 \title{Pretest Practice}
 \author{Niccolò Gabrielli}
@@ -61,11 +62,121 @@
             \item Given all the \textit{other bases} can be \textbf{represented} in base 2, if it works in base 2, it works in all 
         \end{itemize}   
         \\
+
+        \hline
+
+        3
+        &
+        Need to understand how SAR, SHR, ROL, etc. work
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item Stiamo ommettendo il sorgente quindi si fa solo 1 volta
+            \item ROL takes the last bit and puts it in both CF and the first bit and shifts everything to the left
+            \item \textit{Nothing is conserved} given that we're \textit{not using the CF flag} for intermediary stuff
+        \end{itemize}
         
+        \\
+
+        \hline
+
+        4
+        &
+        Need to know how latch SR's work    
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item Can't change variables at the same time in microprocessors $\Rightarrow$ we're going to pass through an intermediary state in which we don't know what will happen 
+        \end{itemize} 
+        \\
+
         \hline
 
     \end{tabular}
 
+
+\noindent\hspace*{-1.5cm}
+    \begin{tabular}{|C{0.7cm}|C{8cm}|C{8cm}|}
+        \hline
+
+
+
+        5
+        &
+        Need to know how an XNOR gate works        
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item XNOR only provides 1 if both the imputs are the same $\Rightarrow$ generatore di impulso
+        \end{itemize}
+        \\
+        \hline        
+
+
+        6
+        &
+        Need to understand how IDIV works
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item Relationship with dividendo and divisore bit sizes, if dividendo is 16 bits $\Rightarrow$ the divisore was 8 bits
+            \item See if the quoziente is representable on 8 bits 
+            \item IDIV also \textbf{does not obide} by \textbf{univoco} condition, it just does truncation
+        \end{itemize}
+        \\
+        \hline
+
+
+        7
+        &
+        Really learn the structure of a calculator which is really important knowledge
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item TODO
+        \end{itemize}
+
+        \\
+        \hline
+
+
+        8
+        &
+        Need to know what the notation means
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item the A $\equiv \beta-1, \beta-1, ..., \beta-1 $ means that we just have $\beta-1$ in each position
+            \item Then the $|A|_{\beta} = \beta-1$ means the value I think in decimal
+            \item Doing the math it comes out to be true and it'll be true in all bases
+        \end{itemize}
+
+        \\
+        \hline
+
+
+        9
+        &
+        This is elementary mappe di karnaugh stuff
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item Sintesi a porte NOR you flip then reflip, just look at the ingressi because you don't optimize those
+        \end{itemize}
+        \\
+        \hline
+
+
+        10
+        &
+        Problem on the riducibilità of numbers, goes back to arithmetic 
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item First see if the first cifra is $> \frac{\beta}{2}$ to see if it's negative
+            \item Look at the representability of individual cifre in the reduced form
+            \item Or see the condition of the represetability by still looking at the most significant bit and see if the last and penultimate bit are equal to each other
+        \end{itemize}
+        \\
+        \hline
+
+    \end{tabular}
+
+
+
+\section{08-01-2025}
 
 
 \end{document}
