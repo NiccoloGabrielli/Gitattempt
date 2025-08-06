@@ -8,6 +8,7 @@
 \usepackage{enumitem}
 \usepackage{array}
 \usepackage{longtable}
+\usepackage{comment}
 
 \title{Pretest Practice}
 \author{Niccolò Gabrielli}
@@ -178,5 +179,162 @@
 
 \section{08-01-2025}
 
+\includegraphics[width = \textwidth]{pretestImage/Domande RL 20250108.pdf}
+\newpage
+
+\noindent\hspace*{-1.5cm}
+    \begin{tabular}{|C{0.7cm}|C{8cm}|C{8cm}|}
+        \hline
+        \textbf{\#} & \textbf{High-level} & \textbf{Solution} \\
+        \hline
+
+        1
+        &
+        Gotta know which flags are impacted by assembler operations
+        &
+        \begin{itemize}[label=\(\rightarrow\)]
+            \item In IMUL \& MUL both CF e OF vengono modificati
+            \item Just fyi, in IDIV \& DIV, viene generato un'interruzione interno
+        \end{itemize} 
+        \\
+
+        \hline
+
+        2
+        &
+        If the result needs to be in BCD, it doesn't work
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item Just using 4 full adders, i would get the correct answer in bits
+            \item However, the representation of the result in BCD would require adding +6 to the answer
+        \end{itemize}
+        \\
+
+        \hline
+
+        3
+        &
+        Knowing what variables are in assembler.
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item Variables are just memory addresses
+            \item The problem has var2 the address of the third byte pointed by var1
+            \item We don't know what the address is though 
+        \end{itemize}
+        \\
+
+
+        \hline
+
+        4
+        &
+        Understanding the relationship between numeri naturali and interi. Understanding the meaning of condizione sufficiente e necessaria         
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item Divisione intera is a special case of divisione naturale from a representation standpoint
+            \item $\Rightarrow$ condizione necessaria 
+        \end{itemize}
+        \\
+
+        \hline
+
+        5
+        &
+        Understand how gates work $\rightarrow$ write out the tabella di verità $\rightarrow$ see how many states are 'riconosciuto' $\Rightarrow$ uscita == 1
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item Following the steps above I get to 3
+        \end{itemize}
+        \\
+        \hline
+
+        6
+        &
+        Know more about the struttura del calcolatore
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item Full answer is literally written in the notes, \textit{interfaccia di uscita senza handshake}
+        \end{itemize}
+        \\
+        \hline
+
+    \end{tabular}
+
+
+\newpage
+
+\noindent\hspace*{-1.5cm}
+    \begin{tabular}{|C{0.7cm}|C{8cm}|C{8cm}|}
+        \hline
+        \textbf{\#} & \textbf{High-level} & \textbf{Solution} \\
+        \hline
+        
+        7
+        &
+        Need to understand how the flags work, and how the AND operation works
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item We want FO to be 1 in order to be able to write something new
+            \item AND replaces in the operando destinatario the \textit{result} of and \textbf{AND} gate of each bit
+            \item The important part is that we have JNZ which means that if the FO flag is 1, we stay in the loop, which isn't correct
+        \end{itemize}
+        \\
+        \hline
+
+
+        8
+        &
+        Need to understand how the flip flop JK works.
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item ANKI for flip-flop JK
+            \item Changes at most one time based on how the flip-flop JK words
+        \end{itemize}
+        \\
+        \hline
+        
+
+        9
+        &
+        Need to know how complemento alla radice works
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item -8 is out of the range of representable numbers in complemento alla radice in base $\beta$ = 14
+        \end{itemize}
+        \\
+        \hline
+
+
+        10
+        &
+        Need to know how a D-latch works, and an important physical detail where variables do not change simultaneously
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item The d-latch passes over 10 or 01 when going from 11->00, so we don't know the last value
+        \end{itemize}
+        \\
+        \hline
+        
+    \end{tabular}
+
+
 
 \end{document}
+
+
+
+
+
+
+\begin{comment}
+
+        &
+
+        &
+         \begin{itemize}[label=\(\rightarrow\)]
+            \item 
+        \end{itemize}
+        \\
+        \hline
+
+\end{comment}

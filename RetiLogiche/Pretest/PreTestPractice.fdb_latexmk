@@ -1,10 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1753926181 "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.tex" "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.pdf" "PreTestPractice" 1753926181 0
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux" 1753926181 768 1d38c25677622b0f6ce7057d3c272812 "pdflatex"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out" 1753926181 186 7fa98cf9d807d3049ba9fdd107f342ef "pdflatex"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.tex" 1753926179 5023 3d739f8181ee0936dd9caa6827a52dea ""
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.toc" 1753926181 132 324a3e181ada9ec6e70d8fe9e790469b "pdflatex"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/pretestImage/Domande RL 20250124.pdf" 1753582507 279559 a6cefc060ac637ef317b207804c61b7d ""
+["pdflatex"] 1754515206 "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex" "PreTestPractice.pdf" "PreTestPractice" 1754515207 0
+  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex" 1754515206 9377 34634b3a5dc932ab4d42c44221ff4874 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -64,6 +60,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty" 1654720880 5319 48d7f3cfa322abd2788e3c09d624b922 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty" 1654720880 5048 84b05796b49b69e2d4257d537721c960 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo" 1667332637 8449 c314623021fbddd0180c05345324933c ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty" 1472166125 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1602711807 11772 8d0db0794e6aeb45348f60bbe3a3e093 ""
@@ -102,10 +99,16 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1708894602 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1708894563 7883464 ae3333a9195284a8206d67b14e4ef043 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "PreTestPractice.aux" 1754515207 768 f90ac9b0d0fffa8eca01e3908306c401 "pdflatex"
+  "PreTestPractice.out" 1754515207 186 7fa98cf9d807d3049ba9fdd107f342ef "pdflatex"
+  "PreTestPractice.tex" 1754515206 9377 34634b3a5dc932ab4d42c44221ff4874 ""
+  "PreTestPractice.toc" 1754515207 132 324a3e181ada9ec6e70d8fe9e790469b "pdflatex"
+  "pretestImage/Domande RL 20250108.pdf" 1754378979 269916 a769491d6ee9ffb828ae6085eca41a64 ""
+  "pretestImage/Domande RL 20250124.pdf" 1753582507 279559 a6cefc060ac637ef317b207804c61b7d ""
   (generated)
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.log"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.pdf"
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.toc"
+  "PreTestPractice.aux"
+  "PreTestPractice.log"
+  "PreTestPractice.out"
+  "PreTestPractice.pdf"
+  "PreTestPractice.toc"
   (rewritten before read)

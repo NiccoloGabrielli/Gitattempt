@@ -2,8 +2,8 @@ PWD /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.tex
-OUTPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.log
+INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex
+OUTPUT PreTestPractice.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -578,6 +578,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -589,10 +600,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux
-OUTPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux
+INPUT ./PreTestPractice.aux
+INPUT PreTestPractice.aux
+INPUT PreTestPractice.aux
+OUTPUT PreTestPractice.aux
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -612,18 +623,18 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-OUTPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.pdf
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-OUTPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
+INPUT ./PreTestPractice.out
+INPUT PreTestPractice.out
+INPUT ./PreTestPractice.out
+INPUT PreTestPractice.out
+INPUT ./PreTestPractice.out
+INPUT PreTestPractice.out
+INPUT ./PreTestPractice.out
+INPUT PreTestPractice.out
+OUTPUT PreTestPractice.pdf
+INPUT ./PreTestPractice.out
+INPUT ./PreTestPractice.out
+OUTPUT PreTestPractice.out
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
@@ -681,17 +692,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.toc
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.toc
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.toc
+INPUT ./PreTestPractice.toc
+INPUT PreTestPractice.toc
+INPUT PreTestPractice.toc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.toc
+OUTPUT PreTestPractice.toc
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/pretestImage/Domande RL 20250124.pdf
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/pretestImage/Domande RL 20250124.pdf
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/pretestImage/Domande RL 20250124.pdf
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/pretestImage/Domande RL 20250124.pdf
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/pretestImage/Domande RL 20250124.pdf
+INPUT ./pretestImage/Domande RL 20250124.pdf
+INPUT ./pretestImage/Domande RL 20250124.pdf
+INPUT pretestImage/Domande RL 20250124.pdf
+INPUT ./pretestImage/Domande RL 20250124.pdf
+INPUT ./pretestImage/Domande RL 20250124.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -710,9 +721,14 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.aux
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
-INPUT /Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/PreTest/PreTestPractice.out
+INPUT ./pretestImage/Domande RL 20250108.pdf
+INPUT ./pretestImage/Domande RL 20250108.pdf
+INPUT pretestImage/Domande RL 20250108.pdf
+INPUT ./pretestImage/Domande RL 20250108.pdf
+INPUT ./pretestImage/Domande RL 20250108.pdf
+INPUT PreTestPractice.aux
+INPUT ./PreTestPractice.out
+INPUT ./PreTestPractice.out
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
