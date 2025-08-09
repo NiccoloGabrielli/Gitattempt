@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  6 AUG 2025 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  9 AUG 2025 03:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,7 +388,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 pdfTeX warning: pdflatex (file ./pretestImage/Domande RL 20250124.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pretestImage/Domande RL 20250124.pdf, id=23, 597.55246pt x 845.07718pt>
+<pretestImage/Domande RL 20250124.pdf, id=28, 597.55246pt x 845.07718pt>
 File: pretestImage/Domande RL 20250124.pdf Graphic file (type pdf)
 <use pretestImage/Domande RL 20250124.pdf>
 Package pdftex.def Info: pretestImage/Domande RL 20250124.pdf  used on input line 34.
@@ -409,7 +409,7 @@ Overfull \vbox (27.26451pt too high) has occurred while \output is active []
  [4]
 
 pdfTeX warning: pdflatex (file ./pretestImage/Domande RL 20250108.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pretestImage/Domande RL 20250108.pdf, id=101, 597.55246pt x 845.07718pt>
+<pretestImage/Domande RL 20250108.pdf, id=106, 597.55246pt x 845.07718pt>
 File: pretestImage/Domande RL 20250108.pdf Graphic file (type pdf)
 <use pretestImage/Domande RL 20250108.pdf>
 Package pdftex.def Info: pretestImage/Domande RL 20250108.pdf  used on input line 182.
@@ -424,23 +424,23 @@ Overfull \hbox (82.69286pt too wide) in paragraph at lines 266--319
 |  [] 
  []
 
-[7] (./PreTestPractice.aux)
+[7] [8] (./PreTestPractice.aux)
 Package rerunfilecheck Info: File `PreTestPractice.out' has not changed.
-(rerunfilecheck)             Checksum: 7FA98CF9D807D3049BA9FDD107F342EF;186.
+(rerunfilecheck)             Checksum: 6E0128AD0BDFB1496AA051DB7560DD3F;279.
  ) 
 Here is how much of TeX's memory you used:
- 11326 strings out of 476025
- 178610 string characters out of 5790017
+ 11329 strings out of 476025
+ 178636 string characters out of 5790017
  1865388 words of memory out of 5000000
- 31602 multiletter control sequences out of 15000+600000
+ 31603 multiletter control sequences out of 15000+600000
  521090 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,76p,328b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PreTestPractice.pdf (7 pages, 519154 bytes).
+Output written on PreTestPractice.pdf (8 pages, 519913 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 11 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 35 words of extra memory for PDF output out of 10000 (max. 10000000)
 

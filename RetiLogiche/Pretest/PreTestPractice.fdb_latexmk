@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1754515206 "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex" "PreTestPractice.pdf" "PreTestPractice" 1754515207 0
-  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex" 1754515206 9377 34634b3a5dc932ab4d42c44221ff4874 ""
+["pdflatex"] 1754701477 "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex" "PreTestPractice.pdf" "PreTestPractice" 1754701478 0
+  "/Users/niccologabrielli/Desktop/CS/GitAttempt/RetiLogiche/Pretest/PreTestPractice.tex" 1754701477 9409 4c57e9e7685e0be73239cf39f967ef08 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -99,10 +99,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1708894602 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1708894563 7883464 ae3333a9195284a8206d67b14e4ef043 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "PreTestPractice.aux" 1754515207 768 f90ac9b0d0fffa8eca01e3908306c401 "pdflatex"
-  "PreTestPractice.out" 1754515207 186 7fa98cf9d807d3049ba9fdd107f342ef "pdflatex"
-  "PreTestPractice.tex" 1754515206 9377 34634b3a5dc932ab4d42c44221ff4874 ""
-  "PreTestPractice.toc" 1754515207 132 324a3e181ada9ec6e70d8fe9e790469b "pdflatex"
+  "PreTestPractice.aux" 1754701478 875 7a3e319461ef34c000ef585affd27db5 "pdflatex"
+  "PreTestPractice.out" 1754701478 279 6e0128ad0bdfb1496aa051db7560dd3f "pdflatex"
+  "PreTestPractice.tex" 1754701477 9409 4c57e9e7685e0be73239cf39f967ef08 ""
+  "PreTestPractice.toc" 1754701478 198 48bfefb04ef745bf53e36dc4a46188b9 "pdflatex"
   "pretestImage/Domande RL 20250108.pdf" 1754378979 269916 a769491d6ee9ffb828ae6085eca41a64 ""
   "pretestImage/Domande RL 20250124.pdf" 1753582507 279559 a6cefc060ac637ef317b207804c61b7d ""
   (generated)
